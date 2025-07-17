@@ -2,49 +2,87 @@
 
 const express = require('express');
 const cors = require('cors');
+const amqp = require('amqplib'); // Import the amqplib library
 
-// Create an instance of the Express application
 const app = express();
-const PORT = process.env.PORT || 8080; // Use port 8080 by default
+const PORT = process.env.PORT || 8080;
+
+// --- RabbitMQ Connection Details ---
+const RABBITMQ_URL = 'amqp://guest:guest@localhost:5672';
+const QUEUE_NAME = 'analysis_jobs';
+let channel, connection; // To hold the channel and connection objects
 
 // --- Middleware ---
-// This enables Cross-Origin Resource Sharing (CORS), so your
-// frontend (on Vercel) can communicate with this API.
 app.use(cors());
-
-// This allows Express to parse incoming requests with JSON payloads.
 app.use(express.json());
+
+/**
+ * Connects to the RabbitMQ server and creates a channel and queue.
+ * This function runs once when the server starts.
+ */
+async function connectToRabbitMQ() {
+    try {
+        // 1. Establish a connection to the RabbitMQ server
+        connection = await amqp.connect(RABBITMQ_URL);
+        console.log('Successfully connected to RabbitMQ');
+
+        // 2. Create a channel, which is where most of the API for getting things done resides
+        channel = await connection.createChannel();
+        console.log('Channel created');
+
+        // 3. Declare a queue for us to send to; this makes sure the queue exists.
+        // durable: true means the queue will survive a RabbitMQ server restart.
+        await channel.assertQueue(QUEUE_NAME, { durable: true });
+        console.log(`Queue '${QUEUE_NAME}' is ready.`);
+
+    } catch (error) {
+        console.error('Failed to connect to RabbitMQ:', error);
+        // If connection fails, exit the process. In a real app, you'd have a retry mechanism.
+        process.exit(1);
+    }
+}
 
 
 // --- Routes ---
-
-// A simple health check endpoint to see if the server is running.
 app.get('/', (req, res) => {
     res.send('Dispatch API is running!');
 });
 
-// The main endpoint for submitting a repository for analysis.
-app.post('/submit', (req, res) => {
-    // We expect the request body to contain the repository URL and user ID.
+app.post('/submit', async (req, res) => {
     const { repoUrl, userId } = req.body;
 
-    // Basic validation to ensure we received the URL.
     if (!repoUrl || !userId) {
         return res.status(400).send({ message: 'Missing repoUrl or userId in request body.' });
     }
 
-    console.log(`Received job for user ${userId}: Analyze ${repoUrl}`);
+    try {
+        // --- Publish to RabbitMQ ---
+        const jobPayload = { repoUrl, userId, submittedAt: new Date().toISOString() };
+        
+        // Convert the JavaScript object to a Buffer to send over the network.
+        const messageBuffer = Buffer.from(JSON.stringify(jobPayload));
 
-    // In the next step, we will send this data to RabbitMQ.
-    // For now, we just send a success response.
-    // The status code 202 means "Accepted" - we've accepted the job,
-    // but it's not completed yet. This is appropriate for an async system.
-    res.status(202).send({ message: 'Job accepted for analysis.', repoUrl: repoUrl });
+        // Send the message to our queue.
+        // The 'persistent: true' option ensures that the message will be saved to disk
+        // and survive a RabbitMQ server restart.
+        channel.sendToQueue(QUEUE_NAME, messageBuffer, { persistent: true });
+
+        console.log(`[x] Sent job to queue: ${repoUrl}`);
+
+        res.status(202).send({ message: 'Job accepted for analysis.', repoUrl: repoUrl });
+
+    } catch (error) {
+        console.error('Error publishing message to RabbitMQ:', error);
+        res.status(500).send({ message: 'Internal server error while queueing job.' });
+    }
 });
 
 
 // --- Start the Server ---
-// This tells the app to listen for incoming requests on the specified port.
-app.listen(PORT, () => {
-    console.log(`Dispatch API server listening on port ${PORT}`);
+// We wrap the server start in our RabbitMQ connection function
+// to ensure we don't start accepting requests until we're connected to the queue.
+connectToRabbitMQ().then(() => {
+    app.listen(PORT, () => {
+        console.log(`Dispatch API server listening on port ${PORT}`);
+    });
 });
