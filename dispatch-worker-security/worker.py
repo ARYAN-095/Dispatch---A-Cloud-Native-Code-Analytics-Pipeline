@@ -24,7 +24,7 @@ print("Firestore client created")
 
 
 # --- RabbitMQ Connection Details ---
-RABBITMQ_URL = 'amqp://guest:guest@localhost:5672/'
+RABBITMQ_URL = 'amqp://guest:guest@rabbitmq:5672';
 CONSUME_QUEUE_NAME = 'cloning_complete_jobs'
 PUBLISH_QUEUE_NAME = 'security_scan_complete_jobs' 
 
