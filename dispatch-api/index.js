@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 // --- RabbitMQ Connection Details ---
-const RABBITMQ_URL = 'amqp://guest:guest@localhost:5672';
+const RABBITMQ_URL = 'amqp://guest:guest@rabbitmq:5672';
 const QUEUE_NAME = 'analysis_jobs';
 let channel, connection; // To hold the channel and connection objects
 
