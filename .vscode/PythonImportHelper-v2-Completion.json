@@ -1,0 +1,779 @@
+[
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "pathlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "pika",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pika",
+        "description": "pika",
+        "detail": "pika",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "firebase_admin",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "credentials",
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "isExtraImport": true,
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "firestore",
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "isExtraImport": true,
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "credentials",
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "isExtraImport": true,
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "firestore",
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "isExtraImport": true,
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "credentials",
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "isExtraImport": true,
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "firestore",
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "isExtraImport": true,
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "git",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "git",
+        "description": "git",
+        "detail": "git",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "dispatch-ui.node_modules.flatted.python.flatted",
+        "description": "dispatch-ui.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "dispatch-ui.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "dispatch-ui.node_modules.flatted.python.flatted",
+        "description": "dispatch-ui.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "dispatch-ui.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "dispatch-ui.node_modules.flatted.python.flatted",
+        "description": "dispatch-ui.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "dispatch-ui.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "dispatch-ui.node_modules.flatted.python.flatted",
+        "description": "dispatch-ui.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "dispatch-ui.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "firestore_adminCallTransformer",
+        "kind": 6,
+        "importPath": "dispatch-worker-cloner.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "description": "dispatch-worker-cloner.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "peekOfCode": "class firestore_adminCallTransformer(cst.CSTTransformer):\n    CTRL_PARAMS: Tuple[str] = ('retry', 'timeout', 'metadata')\n    METHOD_TO_PARAMS: Dict[str, Tuple[str]] = {\n        'bulk_delete_documents': ('name', 'collection_ids', 'namespace_ids', ),\n        'create_backup_schedule': ('parent', 'backup_schedule', ),\n        'create_database': ('parent', 'database', 'database_id', ),\n        'create_index': ('parent', 'index', ),\n        'create_user_creds': ('parent', 'user_creds', 'user_creds_id', ),\n        'delete_backup': ('name', ),\n        'delete_backup_schedule': ('name', ),",
+        "detail": "dispatch-worker-cloner.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "partition",
+        "kind": 2,
+        "importPath": "dispatch-worker-cloner.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "description": "dispatch-worker-cloner.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "peekOfCode": "def partition(\n    predicate: Callable[[Any], bool],\n    iterator: Sequence[Any]\n) -> Tuple[List[Any], List[Any]]:\n    \"\"\"A stable, out-of-place partition.\"\"\"\n    results = ([], [])\n    for i in iterator:\n        results[int(predicate(i))].append(i)\n    # Returns trueList, falseList\n    return results[1], results[0]",
+        "detail": "dispatch-worker-cloner.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "fix_files",
+        "kind": 2,
+        "importPath": "dispatch-worker-cloner.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "description": "dispatch-worker-cloner.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "peekOfCode": "def fix_files(\n    in_dir: pathlib.Path,\n    out_dir: pathlib.Path,\n    *,\n    transformer=firestore_adminCallTransformer(),\n):\n    \"\"\"Duplicate the input dir to the output dir, fixing file method calls.\n    Preconditions:\n    * in_dir is a real directory\n    * out_dir is a real, empty directory",
+        "detail": "dispatch-worker-cloner.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "firestoreCallTransformer",
+        "kind": 6,
+        "importPath": "dispatch-worker-cloner.venv.Scripts.fixup_firestore_v1_keywords",
+        "description": "dispatch-worker-cloner.venv.Scripts.fixup_firestore_v1_keywords",
+        "peekOfCode": "class firestoreCallTransformer(cst.CSTTransformer):\n    CTRL_PARAMS: Tuple[str] = ('retry', 'timeout', 'metadata')\n    METHOD_TO_PARAMS: Dict[str, Tuple[str]] = {\n        'batch_get_documents': ('database', 'documents', 'mask', 'transaction', 'new_transaction', 'read_time', ),\n        'batch_write': ('database', 'writes', 'labels', ),\n        'begin_transaction': ('database', 'options', ),\n        'commit': ('database', 'writes', 'transaction', ),\n        'create_document': ('parent', 'collection_id', 'document', 'document_id', 'mask', ),\n        'delete_document': ('name', 'current_document', ),\n        'get_document': ('name', 'mask', 'transaction', 'read_time', ),",
+        "detail": "dispatch-worker-cloner.venv.Scripts.fixup_firestore_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "partition",
+        "kind": 2,
+        "importPath": "dispatch-worker-cloner.venv.Scripts.fixup_firestore_v1_keywords",
+        "description": "dispatch-worker-cloner.venv.Scripts.fixup_firestore_v1_keywords",
+        "peekOfCode": "def partition(\n    predicate: Callable[[Any], bool],\n    iterator: Sequence[Any]\n) -> Tuple[List[Any], List[Any]]:\n    \"\"\"A stable, out-of-place partition.\"\"\"\n    results = ([], [])\n    for i in iterator:\n        results[int(predicate(i))].append(i)\n    # Returns trueList, falseList\n    return results[1], results[0]",
+        "detail": "dispatch-worker-cloner.venv.Scripts.fixup_firestore_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "fix_files",
+        "kind": 2,
+        "importPath": "dispatch-worker-cloner.venv.Scripts.fixup_firestore_v1_keywords",
+        "description": "dispatch-worker-cloner.venv.Scripts.fixup_firestore_v1_keywords",
+        "peekOfCode": "def fix_files(\n    in_dir: pathlib.Path,\n    out_dir: pathlib.Path,\n    *,\n    transformer=firestoreCallTransformer(),\n):\n    \"\"\"Duplicate the input dir to the output dir, fixing file method calls.\n    Preconditions:\n    * in_dir is a real directory\n    * out_dir is a real, empty directory",
+        "detail": "dispatch-worker-cloner.venv.Scripts.fixup_firestore_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "dispatch-worker-cloner.worker",
+        "description": "dispatch-worker-cloner.worker",
+        "peekOfCode": "def main():\n    \"\"\"Main function to connect to RabbitMQ and start consuming messages.\"\"\"\n    connection = pika.BlockingConnection(pika.URLParameters(RABBITMQ_URL))\n    channel = connection.channel()\n    channel.queue_declare(queue=CONSUME_QUEUE_NAME, durable=True)\n    channel.queue_declare(queue=PUBLISH_QUEUE_NAME, durable=True)\n    print(' [*] Cloning worker waiting for messages. To exit press CTRL+C')\n    def callback(ch, method, properties, body):\n        \"\"\"Processes a message: clones repo, updates Firestore, and passes to next queue.\"\"\"\n        job_id = None",
+        "detail": "dispatch-worker-cloner.worker",
+        "documentation": {}
+    },
+    {
+        "label": "SERVICE_ACCOUNT_KEY_PATH",
+        "kind": 5,
+        "importPath": "dispatch-worker-cloner.worker",
+        "description": "dispatch-worker-cloner.worker",
+        "peekOfCode": "SERVICE_ACCOUNT_KEY_PATH = os.environ.get('SERVICE_ACCOUNT_KEY_PATH', 'serviceAccountKey.json')\ntry:\n    cred = credentials.Certificate(SERVICE_ACCOUNT_KEY_PATH)\n    if not firebase_admin._apps:\n        firebase_admin.initialize_app(cred)\n    print(\"Successfully initialized Firebase Admin SDK\")\nexcept Exception as e:\n    print(f\"Error initializing Firebase Admin SDK: {e}\")\n    exit(1)\ndb = firestore.client()",
+        "detail": "dispatch-worker-cloner.worker",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "dispatch-worker-cloner.worker",
+        "description": "dispatch-worker-cloner.worker",
+        "peekOfCode": "db = firestore.client()\nprint(\"Firestore client created\")\n# --- RabbitMQ Connection Details ---\nRABBITMQ_URL = 'amqp://guest:guest@rabbitmq:5672';\nCONSUME_QUEUE_NAME = 'analysis_jobs'\nPUBLISH_QUEUE_NAME = 'cloning_complete_jobs' \ndef main():\n    \"\"\"Main function to connect to RabbitMQ and start consuming messages.\"\"\"\n    connection = pika.BlockingConnection(pika.URLParameters(RABBITMQ_URL))\n    channel = connection.channel()",
+        "detail": "dispatch-worker-cloner.worker",
+        "documentation": {}
+    },
+    {
+        "label": "RABBITMQ_URL",
+        "kind": 5,
+        "importPath": "dispatch-worker-cloner.worker",
+        "description": "dispatch-worker-cloner.worker",
+        "peekOfCode": "RABBITMQ_URL = 'amqp://guest:guest@rabbitmq:5672';\nCONSUME_QUEUE_NAME = 'analysis_jobs'\nPUBLISH_QUEUE_NAME = 'cloning_complete_jobs' \ndef main():\n    \"\"\"Main function to connect to RabbitMQ and start consuming messages.\"\"\"\n    connection = pika.BlockingConnection(pika.URLParameters(RABBITMQ_URL))\n    channel = connection.channel()\n    channel.queue_declare(queue=CONSUME_QUEUE_NAME, durable=True)\n    channel.queue_declare(queue=PUBLISH_QUEUE_NAME, durable=True)\n    print(' [*] Cloning worker waiting for messages. To exit press CTRL+C')",
+        "detail": "dispatch-worker-cloner.worker",
+        "documentation": {}
+    },
+    {
+        "label": "CONSUME_QUEUE_NAME",
+        "kind": 5,
+        "importPath": "dispatch-worker-cloner.worker",
+        "description": "dispatch-worker-cloner.worker",
+        "peekOfCode": "CONSUME_QUEUE_NAME = 'analysis_jobs'\nPUBLISH_QUEUE_NAME = 'cloning_complete_jobs' \ndef main():\n    \"\"\"Main function to connect to RabbitMQ and start consuming messages.\"\"\"\n    connection = pika.BlockingConnection(pika.URLParameters(RABBITMQ_URL))\n    channel = connection.channel()\n    channel.queue_declare(queue=CONSUME_QUEUE_NAME, durable=True)\n    channel.queue_declare(queue=PUBLISH_QUEUE_NAME, durable=True)\n    print(' [*] Cloning worker waiting for messages. To exit press CTRL+C')\n    def callback(ch, method, properties, body):",
+        "detail": "dispatch-worker-cloner.worker",
+        "documentation": {}
+    },
+    {
+        "label": "PUBLISH_QUEUE_NAME",
+        "kind": 5,
+        "importPath": "dispatch-worker-cloner.worker",
+        "description": "dispatch-worker-cloner.worker",
+        "peekOfCode": "PUBLISH_QUEUE_NAME = 'cloning_complete_jobs' \ndef main():\n    \"\"\"Main function to connect to RabbitMQ and start consuming messages.\"\"\"\n    connection = pika.BlockingConnection(pika.URLParameters(RABBITMQ_URL))\n    channel = connection.channel()\n    channel.queue_declare(queue=CONSUME_QUEUE_NAME, durable=True)\n    channel.queue_declare(queue=PUBLISH_QUEUE_NAME, durable=True)\n    print(' [*] Cloning worker waiting for messages. To exit press CTRL+C')\n    def callback(ch, method, properties, body):\n        \"\"\"Processes a message: clones repo, updates Firestore, and passes to next queue.\"\"\"",
+        "detail": "dispatch-worker-cloner.worker",
+        "documentation": {}
+    },
+    {
+        "label": "firestore_adminCallTransformer",
+        "kind": 6,
+        "importPath": "dispatch-worker-complexity.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "description": "dispatch-worker-complexity.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "peekOfCode": "class firestore_adminCallTransformer(cst.CSTTransformer):\n    CTRL_PARAMS: Tuple[str] = ('retry', 'timeout', 'metadata')\n    METHOD_TO_PARAMS: Dict[str, Tuple[str]] = {\n        'bulk_delete_documents': ('name', 'collection_ids', 'namespace_ids', ),\n        'create_backup_schedule': ('parent', 'backup_schedule', ),\n        'create_database': ('parent', 'database', 'database_id', ),\n        'create_index': ('parent', 'index', ),\n        'create_user_creds': ('parent', 'user_creds', 'user_creds_id', ),\n        'delete_backup': ('name', ),\n        'delete_backup_schedule': ('name', ),",
+        "detail": "dispatch-worker-complexity.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "partition",
+        "kind": 2,
+        "importPath": "dispatch-worker-complexity.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "description": "dispatch-worker-complexity.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "peekOfCode": "def partition(\n    predicate: Callable[[Any], bool],\n    iterator: Sequence[Any]\n) -> Tuple[List[Any], List[Any]]:\n    \"\"\"A stable, out-of-place partition.\"\"\"\n    results = ([], [])\n    for i in iterator:\n        results[int(predicate(i))].append(i)\n    # Returns trueList, falseList\n    return results[1], results[0]",
+        "detail": "dispatch-worker-complexity.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "fix_files",
+        "kind": 2,
+        "importPath": "dispatch-worker-complexity.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "description": "dispatch-worker-complexity.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "peekOfCode": "def fix_files(\n    in_dir: pathlib.Path,\n    out_dir: pathlib.Path,\n    *,\n    transformer=firestore_adminCallTransformer(),\n):\n    \"\"\"Duplicate the input dir to the output dir, fixing file method calls.\n    Preconditions:\n    * in_dir is a real directory\n    * out_dir is a real, empty directory",
+        "detail": "dispatch-worker-complexity.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "firestoreCallTransformer",
+        "kind": 6,
+        "importPath": "dispatch-worker-complexity.venv.Scripts.fixup_firestore_v1_keywords",
+        "description": "dispatch-worker-complexity.venv.Scripts.fixup_firestore_v1_keywords",
+        "peekOfCode": "class firestoreCallTransformer(cst.CSTTransformer):\n    CTRL_PARAMS: Tuple[str] = ('retry', 'timeout', 'metadata')\n    METHOD_TO_PARAMS: Dict[str, Tuple[str]] = {\n        'batch_get_documents': ('database', 'documents', 'mask', 'transaction', 'new_transaction', 'read_time', ),\n        'batch_write': ('database', 'writes', 'labels', ),\n        'begin_transaction': ('database', 'options', ),\n        'commit': ('database', 'writes', 'transaction', ),\n        'create_document': ('parent', 'collection_id', 'document', 'document_id', 'mask', ),\n        'delete_document': ('name', 'current_document', ),\n        'get_document': ('name', 'mask', 'transaction', 'read_time', ),",
+        "detail": "dispatch-worker-complexity.venv.Scripts.fixup_firestore_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "partition",
+        "kind": 2,
+        "importPath": "dispatch-worker-complexity.venv.Scripts.fixup_firestore_v1_keywords",
+        "description": "dispatch-worker-complexity.venv.Scripts.fixup_firestore_v1_keywords",
+        "peekOfCode": "def partition(\n    predicate: Callable[[Any], bool],\n    iterator: Sequence[Any]\n) -> Tuple[List[Any], List[Any]]:\n    \"\"\"A stable, out-of-place partition.\"\"\"\n    results = ([], [])\n    for i in iterator:\n        results[int(predicate(i))].append(i)\n    # Returns trueList, falseList\n    return results[1], results[0]",
+        "detail": "dispatch-worker-complexity.venv.Scripts.fixup_firestore_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "fix_files",
+        "kind": 2,
+        "importPath": "dispatch-worker-complexity.venv.Scripts.fixup_firestore_v1_keywords",
+        "description": "dispatch-worker-complexity.venv.Scripts.fixup_firestore_v1_keywords",
+        "peekOfCode": "def fix_files(\n    in_dir: pathlib.Path,\n    out_dir: pathlib.Path,\n    *,\n    transformer=firestoreCallTransformer(),\n):\n    \"\"\"Duplicate the input dir to the output dir, fixing file method calls.\n    Preconditions:\n    * in_dir is a real directory\n    * out_dir is a real, empty directory",
+        "detail": "dispatch-worker-complexity.venv.Scripts.fixup_firestore_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "dispatch-worker-complexity.worker",
+        "description": "dispatch-worker-complexity.worker",
+        "peekOfCode": "def main():\n    \"\"\"Main function to connect to RabbitMQ and start consuming messages.\"\"\"\n    connection = pika.BlockingConnection(pika.URLParameters(RABBITMQ_URL))\n    channel = connection.channel()\n    # This worker only needs to declare the queue it's listening to.\n    channel.queue_declare(queue=CONSUME_QUEUE_NAME, durable=True)\n    print(' [*] Complexity worker waiting for messages. To exit press CTRL+C')\n    def callback(ch, method, properties, body):\n        \"\"\"Processes a message: simulates complexity scan, marks job as complete.\"\"\"\n        job_id = None",
+        "detail": "dispatch-worker-complexity.worker",
+        "documentation": {}
+    },
+    {
+        "label": "SERVICE_ACCOUNT_KEY_PATH",
+        "kind": 5,
+        "importPath": "dispatch-worker-complexity.worker",
+        "description": "dispatch-worker-complexity.worker",
+        "peekOfCode": "SERVICE_ACCOUNT_KEY_PATH = os.environ.get('SERVICE_ACCOUNT_KEY_PATH', 'serviceAccountKey.json')\ntry:\n    cred = credentials.Certificate(SERVICE_ACCOUNT_KEY_PATH)\n    if not firebase_admin._apps:\n        firebase_admin.initialize_app(cred)\n    print(\"Successfully initialized Firebase Admin SDK\")\nexcept Exception as e:\n    print(f\"Error initializing Firebase Admin SDK: {e}\")\n    exit(1)\ndb = firestore.client()",
+        "detail": "dispatch-worker-complexity.worker",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "dispatch-worker-complexity.worker",
+        "description": "dispatch-worker-complexity.worker",
+        "peekOfCode": "db = firestore.client()\nprint(\"Firestore client created\")\n# --- RabbitMQ Connection Details ---\nRABBITMQ_URL = 'amqp://guest:guest@rabbitmq:5672';\n# This worker CONSUMES from 'security_scan_complete_jobs'\nCONSUME_QUEUE_NAME = 'security_scan_complete_jobs'\ndef main():\n    \"\"\"Main function to connect to RabbitMQ and start consuming messages.\"\"\"\n    connection = pika.BlockingConnection(pika.URLParameters(RABBITMQ_URL))\n    channel = connection.channel()",
+        "detail": "dispatch-worker-complexity.worker",
+        "documentation": {}
+    },
+    {
+        "label": "RABBITMQ_URL",
+        "kind": 5,
+        "importPath": "dispatch-worker-complexity.worker",
+        "description": "dispatch-worker-complexity.worker",
+        "peekOfCode": "RABBITMQ_URL = 'amqp://guest:guest@rabbitmq:5672';\n# This worker CONSUMES from 'security_scan_complete_jobs'\nCONSUME_QUEUE_NAME = 'security_scan_complete_jobs'\ndef main():\n    \"\"\"Main function to connect to RabbitMQ and start consuming messages.\"\"\"\n    connection = pika.BlockingConnection(pika.URLParameters(RABBITMQ_URL))\n    channel = connection.channel()\n    # This worker only needs to declare the queue it's listening to.\n    channel.queue_declare(queue=CONSUME_QUEUE_NAME, durable=True)\n    print(' [*] Complexity worker waiting for messages. To exit press CTRL+C')",
+        "detail": "dispatch-worker-complexity.worker",
+        "documentation": {}
+    },
+    {
+        "label": "CONSUME_QUEUE_NAME",
+        "kind": 5,
+        "importPath": "dispatch-worker-complexity.worker",
+        "description": "dispatch-worker-complexity.worker",
+        "peekOfCode": "CONSUME_QUEUE_NAME = 'security_scan_complete_jobs'\ndef main():\n    \"\"\"Main function to connect to RabbitMQ and start consuming messages.\"\"\"\n    connection = pika.BlockingConnection(pika.URLParameters(RABBITMQ_URL))\n    channel = connection.channel()\n    # This worker only needs to declare the queue it's listening to.\n    channel.queue_declare(queue=CONSUME_QUEUE_NAME, durable=True)\n    print(' [*] Complexity worker waiting for messages. To exit press CTRL+C')\n    def callback(ch, method, properties, body):\n        \"\"\"Processes a message: simulates complexity scan, marks job as complete.\"\"\"",
+        "detail": "dispatch-worker-complexity.worker",
+        "documentation": {}
+    },
+    {
+        "label": "firestore_adminCallTransformer",
+        "kind": 6,
+        "importPath": "dispatch-worker-security.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "description": "dispatch-worker-security.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "peekOfCode": "class firestore_adminCallTransformer(cst.CSTTransformer):\n    CTRL_PARAMS: Tuple[str] = ('retry', 'timeout', 'metadata')\n    METHOD_TO_PARAMS: Dict[str, Tuple[str]] = {\n        'bulk_delete_documents': ('name', 'collection_ids', 'namespace_ids', ),\n        'create_backup_schedule': ('parent', 'backup_schedule', ),\n        'create_database': ('parent', 'database', 'database_id', ),\n        'create_index': ('parent', 'index', ),\n        'create_user_creds': ('parent', 'user_creds', 'user_creds_id', ),\n        'delete_backup': ('name', ),\n        'delete_backup_schedule': ('name', ),",
+        "detail": "dispatch-worker-security.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "partition",
+        "kind": 2,
+        "importPath": "dispatch-worker-security.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "description": "dispatch-worker-security.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "peekOfCode": "def partition(\n    predicate: Callable[[Any], bool],\n    iterator: Sequence[Any]\n) -> Tuple[List[Any], List[Any]]:\n    \"\"\"A stable, out-of-place partition.\"\"\"\n    results = ([], [])\n    for i in iterator:\n        results[int(predicate(i))].append(i)\n    # Returns trueList, falseList\n    return results[1], results[0]",
+        "detail": "dispatch-worker-security.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "fix_files",
+        "kind": 2,
+        "importPath": "dispatch-worker-security.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "description": "dispatch-worker-security.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "peekOfCode": "def fix_files(\n    in_dir: pathlib.Path,\n    out_dir: pathlib.Path,\n    *,\n    transformer=firestore_adminCallTransformer(),\n):\n    \"\"\"Duplicate the input dir to the output dir, fixing file method calls.\n    Preconditions:\n    * in_dir is a real directory\n    * out_dir is a real, empty directory",
+        "detail": "dispatch-worker-security.venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "firestoreCallTransformer",
+        "kind": 6,
+        "importPath": "dispatch-worker-security.venv.Scripts.fixup_firestore_v1_keywords",
+        "description": "dispatch-worker-security.venv.Scripts.fixup_firestore_v1_keywords",
+        "peekOfCode": "class firestoreCallTransformer(cst.CSTTransformer):\n    CTRL_PARAMS: Tuple[str] = ('retry', 'timeout', 'metadata')\n    METHOD_TO_PARAMS: Dict[str, Tuple[str]] = {\n        'batch_get_documents': ('database', 'documents', 'mask', 'transaction', 'new_transaction', 'read_time', ),\n        'batch_write': ('database', 'writes', 'labels', ),\n        'begin_transaction': ('database', 'options', ),\n        'commit': ('database', 'writes', 'transaction', ),\n        'create_document': ('parent', 'collection_id', 'document', 'document_id', 'mask', ),\n        'delete_document': ('name', 'current_document', ),\n        'get_document': ('name', 'mask', 'transaction', 'read_time', ),",
+        "detail": "dispatch-worker-security.venv.Scripts.fixup_firestore_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "partition",
+        "kind": 2,
+        "importPath": "dispatch-worker-security.venv.Scripts.fixup_firestore_v1_keywords",
+        "description": "dispatch-worker-security.venv.Scripts.fixup_firestore_v1_keywords",
+        "peekOfCode": "def partition(\n    predicate: Callable[[Any], bool],\n    iterator: Sequence[Any]\n) -> Tuple[List[Any], List[Any]]:\n    \"\"\"A stable, out-of-place partition.\"\"\"\n    results = ([], [])\n    for i in iterator:\n        results[int(predicate(i))].append(i)\n    # Returns trueList, falseList\n    return results[1], results[0]",
+        "detail": "dispatch-worker-security.venv.Scripts.fixup_firestore_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "fix_files",
+        "kind": 2,
+        "importPath": "dispatch-worker-security.venv.Scripts.fixup_firestore_v1_keywords",
+        "description": "dispatch-worker-security.venv.Scripts.fixup_firestore_v1_keywords",
+        "peekOfCode": "def fix_files(\n    in_dir: pathlib.Path,\n    out_dir: pathlib.Path,\n    *,\n    transformer=firestoreCallTransformer(),\n):\n    \"\"\"Duplicate the input dir to the output dir, fixing file method calls.\n    Preconditions:\n    * in_dir is a real directory\n    * out_dir is a real, empty directory",
+        "detail": "dispatch-worker-security.venv.Scripts.fixup_firestore_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "dispatch-worker-security.worker",
+        "description": "dispatch-worker-security.worker",
+        "peekOfCode": "def main():\n    \"\"\"Main function to connect to RabbitMQ and start consuming messages.\"\"\"\n    connection = pika.BlockingConnection(pika.URLParameters(RABBITMQ_URL))\n    channel = connection.channel()\n    channel.queue_declare(queue=CONSUME_QUEUE_NAME, durable=True)\n    channel.queue_declare(queue=PUBLISH_QUEUE_NAME, durable=True)\n    print(' [*] Security worker waiting for messages. To exit press CTRL+C')\n    def callback(ch, method, properties, body):\n        \"\"\"Processes a message: simulates scan, updates Firestore, passes to next queue.\"\"\"\n        job_id = None",
+        "detail": "dispatch-worker-security.worker",
+        "documentation": {}
+    },
+    {
+        "label": "SERVICE_ACCOUNT_KEY_PATH",
+        "kind": 5,
+        "importPath": "dispatch-worker-security.worker",
+        "description": "dispatch-worker-security.worker",
+        "peekOfCode": "SERVICE_ACCOUNT_KEY_PATH = os.environ.get('SERVICE_ACCOUNT_KEY_PATH', 'serviceAccountKey.json')\ntry:\n    cred = credentials.Certificate(SERVICE_ACCOUNT_KEY_PATH)\n    if not firebase_admin._apps:\n        firebase_admin.initialize_app(cred)\n    print(\"Successfully initialized Firebase Admin SDK\")\nexcept Exception as e:\n    print(f\"Error initializing Firebase Admin SDK: {e}\")\n    exit(1)\ndb = firestore.client()",
+        "detail": "dispatch-worker-security.worker",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "dispatch-worker-security.worker",
+        "description": "dispatch-worker-security.worker",
+        "peekOfCode": "db = firestore.client()\nprint(\"Firestore client created\")\n# --- RabbitMQ Connection Details ---\nRABBITMQ_URL = 'amqp://guest:guest@rabbitmq:5672';\nCONSUME_QUEUE_NAME = 'cloning_complete_jobs'\nPUBLISH_QUEUE_NAME = 'security_scan_complete_jobs' \ndef main():\n    \"\"\"Main function to connect to RabbitMQ and start consuming messages.\"\"\"\n    connection = pika.BlockingConnection(pika.URLParameters(RABBITMQ_URL))\n    channel = connection.channel()",
+        "detail": "dispatch-worker-security.worker",
+        "documentation": {}
+    },
+    {
+        "label": "RABBITMQ_URL",
+        "kind": 5,
+        "importPath": "dispatch-worker-security.worker",
+        "description": "dispatch-worker-security.worker",
+        "peekOfCode": "RABBITMQ_URL = 'amqp://guest:guest@rabbitmq:5672';\nCONSUME_QUEUE_NAME = 'cloning_complete_jobs'\nPUBLISH_QUEUE_NAME = 'security_scan_complete_jobs' \ndef main():\n    \"\"\"Main function to connect to RabbitMQ and start consuming messages.\"\"\"\n    connection = pika.BlockingConnection(pika.URLParameters(RABBITMQ_URL))\n    channel = connection.channel()\n    channel.queue_declare(queue=CONSUME_QUEUE_NAME, durable=True)\n    channel.queue_declare(queue=PUBLISH_QUEUE_NAME, durable=True)\n    print(' [*] Security worker waiting for messages. To exit press CTRL+C')",
+        "detail": "dispatch-worker-security.worker",
+        "documentation": {}
+    },
+    {
+        "label": "CONSUME_QUEUE_NAME",
+        "kind": 5,
+        "importPath": "dispatch-worker-security.worker",
+        "description": "dispatch-worker-security.worker",
+        "peekOfCode": "CONSUME_QUEUE_NAME = 'cloning_complete_jobs'\nPUBLISH_QUEUE_NAME = 'security_scan_complete_jobs' \ndef main():\n    \"\"\"Main function to connect to RabbitMQ and start consuming messages.\"\"\"\n    connection = pika.BlockingConnection(pika.URLParameters(RABBITMQ_URL))\n    channel = connection.channel()\n    channel.queue_declare(queue=CONSUME_QUEUE_NAME, durable=True)\n    channel.queue_declare(queue=PUBLISH_QUEUE_NAME, durable=True)\n    print(' [*] Security worker waiting for messages. To exit press CTRL+C')\n    def callback(ch, method, properties, body):",
+        "detail": "dispatch-worker-security.worker",
+        "documentation": {}
+    },
+    {
+        "label": "PUBLISH_QUEUE_NAME",
+        "kind": 5,
+        "importPath": "dispatch-worker-security.worker",
+        "description": "dispatch-worker-security.worker",
+        "peekOfCode": "PUBLISH_QUEUE_NAME = 'security_scan_complete_jobs' \ndef main():\n    \"\"\"Main function to connect to RabbitMQ and start consuming messages.\"\"\"\n    connection = pika.BlockingConnection(pika.URLParameters(RABBITMQ_URL))\n    channel = connection.channel()\n    channel.queue_declare(queue=CONSUME_QUEUE_NAME, durable=True)\n    channel.queue_declare(queue=PUBLISH_QUEUE_NAME, durable=True)\n    print(' [*] Security worker waiting for messages. To exit press CTRL+C')\n    def callback(ch, method, properties, body):\n        \"\"\"Processes a message: simulates scan, updates Firestore, passes to next queue.\"\"\"",
+        "detail": "dispatch-worker-security.worker",
+        "documentation": {}
+    }
+]
